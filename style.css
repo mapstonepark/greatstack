@@ -69,11 +69,16 @@ button{
 ul li{
   list-style-type: none;
   font-size: 17px;
-  padding: 12px 8px 12px 50px;
+  padding: 12px 30px 12px 50px;
   user-select: none;
   cursor: pointer;
   position: relative;
+
+  
 }
+
+
+
 
 ul li::before{
   content: '';
@@ -110,6 +115,8 @@ ul li span{
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
+ 
+
   
 
 }
